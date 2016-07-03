@@ -20,9 +20,10 @@ namespace CUI
 
       int a = 18;
       int b = 144;
+      int[] c = { 264, 543, 22, 76, 44, 90, 67, 46, 78 };
 
       Console.WriteLine("Value 1 :  {0};   Value 2 :  {1};", a, b);
-      Console.WriteLine("Greatest common divisor (Euclidian method) : {0}", GreatestCommonDivisor.EuclidianGCD(a, b));
+      Console.WriteLine("Greatest common divisor (Euclidian method) : {0}", GreatestCommonDivisor.EuclidianGCD(a, b, c));
       Console.WriteLine("time : {0}", GreatestCommonDivisor.Time);
       Console.ReadKey();
     }

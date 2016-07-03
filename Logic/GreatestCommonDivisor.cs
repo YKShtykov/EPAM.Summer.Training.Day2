@@ -19,6 +19,8 @@ namespace Logic
       {
         return stopwatch.Elapsed;
       }
+
+      private set { Time = value; }
     }
 
     static GreatestCommonDivisor()
@@ -27,7 +29,7 @@ namespace Logic
     }
 
     /// <summary>
-    /// Calculating the greatest common divisor by Euclidian method
+    /// Calculating the greatest common divisor of two values by Euclidian method
     /// </summary>
     /// <param name="a"></param>
     /// <param name="b"></param>
@@ -61,6 +63,34 @@ namespace Logic
       stopwatch.Stop();
 
       return b;
+    }
+
+    /// <summary>
+    /// Calculating the greatest common divisor of more then two values by Euclidian method
+    /// </summary>
+    /// <param name="a"></param>
+    /// <param name="b"></param>
+    /// <param name="arr"></param>
+    /// <returns> int the greatest common divisor </returns>
+    public static int EuclidianGCD(int a, int b, params int[] arr)
+    {
+      var result = EuclidianGCD(a, b);
+      var temp = Time;
+
+      if (arr == null)
+      {
+        return result;
+      }
+
+      foreach (var item in arr)
+      {
+        result = EuclidianGCD(result, item);
+        temp += Time;
+      }
+
+      Time = temp;
+
+      return result;
     }
 
     /// <summary>
