@@ -3,3 +3,8 @@ C:\Users\Yakov\Desktop\EPAM.Training\EPAM.Summer.Training.Day2\Logic\bin\Debug\L
 C:\Users\Yakov\Desktop\EPAM.Training\EPAM.Summer.Training.Day2\Logic\obj\Debug\Logic.csprojResolveAssemblyReference.cache
 C:\Users\Yakov\Desktop\EPAM.Training\EPAM.Summer.Training.Day2\Logic\obj\Debug\Logic.dll
 C:\Users\Yakov\Desktop\EPAM.Training\EPAM.Summer.Training.Day2\Logic\obj\Debug\Logic.pdb
+C:\Users\Yakov\Desktop\EPAM.Training - копия\EPAM.Summer.Training.Day2\EPAM.Summer.Training.Day2\Logic\bin\Debug\Logic.dll
+C:\Users\Yakov\Desktop\EPAM.Training - копия\EPAM.Summer.Training.Day2\EPAM.Summer.Training.Day2\Logic\bin\Debug\Logic.pdb
+C:\Users\Yakov\Desktop\EPAM.Training - копия\EPAM.Summer.Training.Day2\EPAM.Summer.Training.Day2\Logic\obj\Debug\Logic.csprojResolveAssemblyReference.cache
+C:\Users\Yakov\Desktop\EPAM.Training - копия\EPAM.Summer.Training.Day2\EPAM.Summer.Training.Day2\Logic\obj\Debug\Logic.dll
+C:\Users\Yakov\Desktop\EPAM.Training - копия\EPAM.Summer.Training.Day2\EPAM.Summer.Training.Day2\Logic\obj\Debug\Logic.pdb
