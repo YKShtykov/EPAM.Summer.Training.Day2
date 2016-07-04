@@ -20,12 +20,13 @@ namespace CUI
 
       int a = 1688;
       int b = 144;
+      long Time;
 
       Console.WriteLine("Value 1 :  {0};   Value 2 :  {1};", a, b);
-      Console.WriteLine("Greatest common divisor (Euclidian method) : {0}", GreatestCommonDivisor.EuclidianGCD(a, b));
-      Console.WriteLine("time : {0}", GreatestCommonDivisor.Time);
-      Console.WriteLine("Greatest common divisor (Stain method) : {0}", GreatestCommonDivisor.StainGCD(a, b));
-      Console.WriteLine("time : {0}", GreatestCommonDivisor.Time);
+      Console.WriteLine("Greatest common divisor (Euclidian method) : {0}", GreatestCommonDivisor.EuclidianGCD(out Time,a, b));
+      Console.WriteLine("time : {0}", Time);
+      Console.WriteLine("Greatest common divisor (Shtein method) : {0}", GreatestCommonDivisor.ShteinGCD(out Time,a, b));
+      Console.WriteLine("time : {0}", Time);
       Console.ReadKey();
     }
   }
